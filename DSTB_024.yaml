@@ -1,7 +1,7 @@
 proxies:
 - name: Rida_LiveDO_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: 373b8b46-eff9-4f05-a3ae-1ef17c4be5a2
   udp: true
@@ -14,7 +14,7 @@ proxies:
       Host: sgdo2.myserver-prem.xyz
 - name: TrojanWsSvr-Live_1
   type: trojan
-  server: 104.18.1.196
+  server: circles.asia
   port: 443
   password: 9766b64f-2d18-464b-8be5-02231f0e0c44
   udp: true

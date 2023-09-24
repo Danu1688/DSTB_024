@@ -1,4 +1,17 @@
 proxies:
+- name: RidaNusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 8f661831-afba-4444-8b0e-df769c4db72c
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: Rida_LiveDO_1
   type: trojan
   server: circles.asia
